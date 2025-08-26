@@ -1,6 +1,6 @@
 import animal.Animal;
 
-public class Canini extends Animal {
+public abstract class Canini extends Animal {
 
     
     protected boolean tooth;
@@ -9,4 +9,7 @@ public class Canini extends Animal {
         super(lifeExpectancy, weight, isDead);
         this.tooth = tooth;
     }
+
+    @Override
+    public abstract void makeSound();
 }

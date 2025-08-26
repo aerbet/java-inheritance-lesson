@@ -1,4 +1,4 @@
-public class Cat extends Fellini {
+public final class Cat extends Fellini {
     
     private String name;
     
@@ -9,7 +9,7 @@ public class Cat extends Fellini {
     }
     
     @Override
-    protected void makeSound() {
+    public void makeSound() {
         System.out.println("Meow...");;
     }
     

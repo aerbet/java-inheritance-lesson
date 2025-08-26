@@ -10,7 +10,7 @@ public class Dog extends Canini {
     }
 
     @Override
-    protected void makeSound() {
+    public void makeSound() {
         System.out.println("Gaw gaw...");
     }
 

@@ -1,6 +1,6 @@
 import animal.Animal;
 
-public class Fellini extends Animal {
+public abstract class Fellini extends Animal {
 
     protected boolean nightVision;
     
@@ -8,6 +8,5 @@ public class Fellini extends Animal {
         super(lifeExpectancy, weight, isDead);
         this.nightVision = true;
     }
-
-
+    
 }
